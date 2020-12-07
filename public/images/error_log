@@ -1,0 +1,121 @@
+[13-Oct-2020 11:57:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function aare_get_page_wrapper_classes() in /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/header.php:24
+Stack trace:
+#0 /home/matcuned/furniture.matchtimings.com/wp-includes/template.php(730): require_once()
+#1 /home/matcuned/furniture.matchtimings.com/wp-includes/template.php(676): load_template('/home/matcuned/...', true, Array)
+#2 /home/matcuned/furniture.matchtimings.com/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/page-full-width.php(6): get_header()
+#4 /home/matcuned/furniture.matchtimings.com/wp-includes/template-loader.php(106): include('/home/matcuned/...')
+#5 /home/matcuned/furniture.matchtimings.com/wp-blog-header.php(19): require_once('/home/matcuned/...')
+#6 /home/matcuned/furniture.matchtimings.com/index.php(17): require('/home/matcuned/...')
+#7 {main}
+  thrown in /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/header.php on line 24
+[13-Oct-2020 11:57:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function aare_get_page_wrapper_classes() in /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/header.php:24
+Stack trace:
+#0 /home/matcuned/furniture.matchtimings.com/wp-includes/template.php(730): require_once()
+#1 /home/matcuned/furniture.matchtimings.com/wp-includes/template.php(676): load_template('/home/matcuned/...', true, Array)
+#2 /home/matcuned/furniture.matchtimings.com/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/page-full-width.php(6): get_header()
+#4 /home/matcuned/furniture.matchtimings.com/wp-includes/template-loader.php(106): include('/home/matcuned/...')
+#5 /home/matcuned/furniture.matchtimings.com/wp-blog-header.php(19): require_once('/home/matcuned/...')
+#6 /home/matcuned/furniture.matchtimings.com/index.php(17): require('/home/matcuned/...')
+#7 {main}
+  thrown in /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/header.php on line 24
+[13-Oct-2020 11:57:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function aare_get_page_wrapper_classes() in /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/header.php:24
+Stack trace:
+#0 /home/matcuned/furniture.matchtimings.com/wp-includes/template.php(730): require_once()
+#1 /home/matcuned/furniture.matchtimings.com/wp-includes/template.php(676): load_template('/home/matcuned/...', true, Array)
+#2 /home/matcuned/furniture.matchtimings.com/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/page-full-width.php(6): get_header()
+#4 /home/matcuned/furniture.matchtimings.com/wp-includes/template-loader.php(106): include('/home/matcuned/...')
+#5 /home/matcuned/furniture.matchtimings.com/wp-blog-header.php(19): require_once('/home/matcuned/...')
+#6 /home/matcuned/furniture.matchtimings.com/index.php(17): require('/home/matcuned/...')
+#7 {main}
+  thrown in /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/header.php on line 24
+[13-Oct-2020 11:58:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function aare_get_page_wrapper_classes() in /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/header.php:24
+Stack trace:
+#0 /home/matcuned/furniture.matchtimings.com/wp-includes/template.php(730): require_once()
+#1 /home/matcuned/furniture.matchtimings.com/wp-includes/template.php(676): load_template('/home/matcuned/...', true, Array)
+#2 /home/matcuned/furniture.matchtimings.com/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/page-full-width.php(6): get_header()
+#4 /home/matcuned/furniture.matchtimings.com/wp-includes/template-loader.php(106): include('/home/matcuned/...')
+#5 /home/matcuned/furniture.matchtimings.com/wp-blog-header.php(19): require_once('/home/matcuned/...')
+#6 /home/matcuned/furniture.matchtimings.com/index.php(17): require('/home/matcuned/...')
+#7 {main}
+  thrown in /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/header.php on line 24
+[13-Oct-2020 11:59:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function aare_get_page_wrapper_classes() in /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/header.php:24
+Stack trace:
+#0 /home/matcuned/furniture.matchtimings.com/wp-includes/template.php(730): require_once()
+#1 /home/matcuned/furniture.matchtimings.com/wp-includes/template.php(676): load_template('/home/matcuned/...', true, Array)
+#2 /home/matcuned/furniture.matchtimings.com/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/page-full-width.php(6): get_header()
+#4 /home/matcuned/furniture.matchtimings.com/wp-includes/template-loader.php(106): include('/home/matcuned/...')
+#5 /home/matcuned/furniture.matchtimings.com/wp-blog-header.php(19): require_once('/home/matcuned/...')
+#6 /home/matcuned/furniture.matchtimings.com/index.php(17): require('/home/matcuned/...')
+#7 {main}
+  thrown in /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/header.php on line 24
+[13-Oct-2020 11:59:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function aare_get_page_wrapper_classes() in /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/header.php:24
+Stack trace:
+#0 /home/matcuned/furniture.matchtimings.com/wp-includes/template.php(730): require_once()
+#1 /home/matcuned/furniture.matchtimings.com/wp-includes/template.php(676): load_template('/home/matcuned/...', true, Array)
+#2 /home/matcuned/furniture.matchtimings.com/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/page-full-width.php(6): get_header()
+#4 /home/matcuned/furniture.matchtimings.com/wp-includes/template-loader.php(106): include('/home/matcuned/...')
+#5 /home/matcuned/furniture.matchtimings.com/wp-blog-header.php(19): require_once('/home/matcuned/...')
+#6 /home/matcuned/furniture.matchtimings.com/index.php(17): require('/home/matcuned/...')
+#7 {main}
+  thrown in /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/header.php on line 24
+[13-Oct-2020 12:02:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function aare_get_page_wrapper_classes() in /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/header.php:24
+Stack trace:
+#0 /home/matcuned/furniture.matchtimings.com/wp-includes/template.php(730): require_once()
+#1 /home/matcuned/furniture.matchtimings.com/wp-includes/template.php(676): load_template('/home/matcuned/...', true, Array)
+#2 /home/matcuned/furniture.matchtimings.com/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/page-full-width.php(6): get_header()
+#4 /home/matcuned/furniture.matchtimings.com/wp-includes/template-loader.php(106): include('/home/matcuned/...')
+#5 /home/matcuned/furniture.matchtimings.com/wp-blog-header.php(19): require_once('/home/matcuned/...')
+#6 /home/matcuned/furniture.matchtimings.com/index.php(17): require('/home/matcuned/...')
+#7 {main}
+  thrown in /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/header.php on line 24
+[13-Oct-2020 12:02:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function aare_get_page_wrapper_classes() in /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/header.php:24
+Stack trace:
+#0 /home/matcuned/furniture.matchtimings.com/wp-includes/template.php(730): require_once()
+#1 /home/matcuned/furniture.matchtimings.com/wp-includes/template.php(676): load_template('/home/matcuned/...', true, Array)
+#2 /home/matcuned/furniture.matchtimings.com/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/page-full-width.php(6): get_header()
+#4 /home/matcuned/furniture.matchtimings.com/wp-includes/template-loader.php(106): include('/home/matcuned/...')
+#5 /home/matcuned/furniture.matchtimings.com/wp-blog-header.php(19): require_once('/home/matcuned/...')
+#6 /home/matcuned/furniture.matchtimings.com/index.php(17): require('/home/matcuned/...')
+#7 {main}
+  thrown in /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/header.php on line 24
+[13-Oct-2020 12:08:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function aare_get_page_wrapper_classes() in /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/header.php:24
+Stack trace:
+#0 /home/matcuned/furniture.matchtimings.com/wp-includes/template.php(730): require_once()
+#1 /home/matcuned/furniture.matchtimings.com/wp-includes/template.php(676): load_template('/home/matcuned/...', true, Array)
+#2 /home/matcuned/furniture.matchtimings.com/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/page-full-width.php(6): get_header()
+#4 /home/matcuned/furniture.matchtimings.com/wp-includes/template-loader.php(106): include('/home/matcuned/...')
+#5 /home/matcuned/furniture.matchtimings.com/wp-blog-header.php(19): require_once('/home/matcuned/...')
+#6 /home/matcuned/furniture.matchtimings.com/index.php(17): require('/home/matcuned/...')
+#7 {main}
+  thrown in /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/header.php on line 24
+[13-Oct-2020 12:08:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function aare_get_page_wrapper_classes() in /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/header.php:24
+Stack trace:
+#0 /home/matcuned/furniture.matchtimings.com/wp-includes/template.php(730): require_once()
+#1 /home/matcuned/furniture.matchtimings.com/wp-includes/template.php(676): load_template('/home/matcuned/...', true, Array)
+#2 /home/matcuned/furniture.matchtimings.com/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/page-full-width.php(6): get_header()
+#4 /home/matcuned/furniture.matchtimings.com/wp-includes/template-loader.php(106): include('/home/matcuned/...')
+#5 /home/matcuned/furniture.matchtimings.com/wp-blog-header.php(19): require_once('/home/matcuned/...')
+#6 /home/matcuned/furniture.matchtimings.com/index.php(17): require('/home/matcuned/...')
+#7 {main}
+  thrown in /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/header.php on line 24
+[13-Oct-2020 12:09:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function aare_get_page_wrapper_classes() in /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/header.php:24
+Stack trace:
+#0 /home/matcuned/furniture.matchtimings.com/wp-includes/template.php(730): require_once()
+#1 /home/matcuned/furniture.matchtimings.com/wp-includes/template.php(676): load_template('/home/matcuned/...', true, Array)
+#2 /home/matcuned/furniture.matchtimings.com/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/page-full-width.php(6): get_header()
+#4 /home/matcuned/furniture.matchtimings.com/wp-includes/template-loader.php(106): include('/home/matcuned/...')
+#5 /home/matcuned/furniture.matchtimings.com/wp-blog-header.php(19): require_once('/home/matcuned/...')
+#6 /home/matcuned/furniture.matchtimings.com/index.php(17): require('/home/matcuned/...')
+#7 {main}
+  thrown in /home/matcuned/furniture.matchtimings.com/wp-content/themes/aare/header.php on line 24
