@@ -59,22 +59,33 @@
 
 <!-- Bathroom Id Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('bathroom_id', 'Bathroom:') !!}
+    {!! Form::label('bathroom_id', 'Bedroom:') !!}
     <select name="bathroom_id" class="form-control">
-                                    <option value="">Bathroom</option>
-                                     @foreach($bedroom as $bedrooms)
-        <option value="{{$bedrooms->id}}" >{{  $bedrooms->bedroom}}</option>
+                <option value="">Bedroom</option>
+        @foreach($bedroom as $bedrooms)
+         <?php 
+         if($bedrooms->id == $property['bedroom_id']){  
+            $selected = "selected = 'selected'"; 
+        }else{
+           $selected="";
+         } ?>
+        <option value="{{$bedrooms->id}}" {{$selected}}>{{  $bedrooms->bedroom}}</option>
         @endforeach
                                 </select>`
 </div>
 
 <!-- Bedroom Id Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('bedroom_id', 'Bedroom :') !!}
+    {!! Form::label('bedroom_id', 'Bathroom :') !!}
     <select name="bedroom_id" class="form-control">
-                                        <option value="">Bedroom</option>
+                                        <option value="">Bathroom</option>
                                          @foreach($bathroom as $bathrooms)
-        <option value="{{$bathrooms->id}}" >{{  $bathrooms->bathroom}}</option>
+                                         <?php  if($bathrooms->id == $property['bathroom_id']){  
+            $selected = "selected = 'selected'"; 
+        }else{
+           $selected="";
+         } ?>
+        <option value="{{$bathrooms->id}}" {{$selected}}>{{  $bathrooms->bathroom}}</option>
         @endforeach
                                     </select>
 </div>
@@ -85,7 +96,12 @@
    <select name="balcony_id" class="form-control">
                                         <option value="">Select balcony</option>
          @foreach($balcony as $balconies)
-        <option value="{{$balconies->id}}" >{{  $balconies->balcony}}</option>
+         <?php  if($balconies->id == $property['balcony_id']){  
+            $selected = "selected = 'selected'"; 
+        }else{
+           $selected="";
+         } ?>
+        <option value="{{$balconies->id}}" {{$selected}}>{{  $balconies->balcony}}</option>
         @endforeach
                                     </select>
 </div>
@@ -96,7 +112,12 @@
    <select name="floor_id" class="form-control">
                                     <option value="">Available Floor</option>
                                     @foreach($floor as $floors)
-        <option value="{{$floors->id}}" >{{  $floors->floor}}</option>
+                                    <?php  if($floors->id == $property['floor_id']){  
+            $selected = "selected = 'selected'"; 
+        }else{
+           $selected="";
+         } ?>
+        <option value="{{$floors->id}}" {{$selected}}>{{  $floors->floor}}</option>
         @endforeach
                                 </select>
 </div>

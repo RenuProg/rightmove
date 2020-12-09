@@ -34,9 +34,9 @@
 </head>
 <body class="hold-transition login-page">
 <div class="login-box">
-    <div class="login-logo">
-        <a href="{{ url('/home') }}"><img src="{{asset('storage/settings/June2019/NkqJmjVfVYE9cegFgw0V.png')}}" height="100" width="200"></a>
-    </div>
+   <!--  <div class="login-logo">
+        <a href="{{ url('/home') }}"><img src="{{ asset('storage/settings/June2019/NkqJmjVfVYE9cegFgw0V.png') }} " height="100" width="200"></a>
+    </div> -->
 
     <!-- /.login-logo -->
     <div class="login-box-body">
@@ -67,11 +67,11 @@
             </div>
             <div class="row">
                 <div class="col-xs-8">
-                    <div class="checkbox icheck">
+                    <!-- <div class="checkbox icheck">
                         <label>
                             <input type="checkbox" name="remember"> Remember Me
                         </label>
-                    </div>
+                    </div> -->
                 </div>
                 <!-- /.col -->
                 <div class="col-xs-4">

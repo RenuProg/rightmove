@@ -80,7 +80,7 @@ class PostAdvertisementController extends Controller
         'total_area'=>'required',
         'builtup_area'=>'required',
         'property_title' => 'required',
-        'price'=>'required',
+        'price'=>'required|numeric|min:1',
         'about'=>'required',
         'location'=>'required',
         'carpet_area'=>'required',
@@ -89,7 +89,7 @@ class PostAdvertisementController extends Controller
         'balcony'=>'required',
         'floor'=>'required'
     ]);
-
+        $status=0;
         $input['property_type_id'] = $request->property_type;
         $input['property_sub_type_id'] = $request->property_sub_type;
         $input['total_area'] = $request->total_area;
@@ -103,6 +103,7 @@ class PostAdvertisementController extends Controller
         $input['balcony_id'] = $request->balcony;
          $input['floor_id'] = $request->floor;
          $input['property_title'] = $request->property_title;
+         $input['is_active'] = $status;
 
          //dd($input );
         $images=array();

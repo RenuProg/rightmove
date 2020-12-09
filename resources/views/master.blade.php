@@ -23,7 +23,7 @@
 <!-- signatra-font -->
 <link rel="stylesheet" href="css/signatra-font.css">
 
-<link rel="icon" type="image/png" href="storage/settings/April2019/NwdppXBsbh6Uo5PLnXeD.png">
+<link rel="icon" type="image/png" href="{{asset('storage/settings/April2019/NwdppXBsbh6Uo5PLnXeD.png')}}">
 <!-- Place favicon.ico in the root directory -->
 <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
 <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
@@ -155,7 +155,7 @@
             <div class="nav-header" style="width: 300px !important">
                 
                 <a class="nav-brand" href="{{url('/')}}">
-                    <img src="storage/settings/June2019/NkqJmjVfVYE9cegFgw0V.png" alt="">
+                    <img src="{{asset('storage/settings/June2019/NkqJmjVfVYE9cegFgw0V.png')}}" alt="">
                 </a>
                 <div class="nav-toggle"></div>
             </div>
@@ -192,7 +192,7 @@
                     <div class="footer-widget">
                         <div class="footer-logo-wraper">
                             <a href="index.html" class="footer-logo">
-                                <img src="storage/settings/June2019/NkqJmjVfVYE9cegFgw0V.png" alt="">
+                                <img src="{{asset('storage/settings/June2019/NkqJmjVfVYE9cegFgw0V.png')}}" alt="">
                             </a>
                         </div>
                     </div> 

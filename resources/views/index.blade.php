@@ -38,7 +38,7 @@
                     data-frames='[{"delay":500,"speed":1000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                     data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                     data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                    style="z-index: 5;"><img src="images/rev-slider/bg_particle.png" alt="" data-ww=""
+                    style="z-index: 5;"><img src="{{ asset('images/rev-slider/bg_particle.png')}}" alt="" data-ww=""
                         data-hh="" data-no-retina> </div>
 
                 <!-- LAYER NR. 2 -->
@@ -50,7 +50,7 @@
                     data-frames='[{"delay":800,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                     data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                     data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                    style="z-index: 6;"><img src="images/rev-slider/image_basement.png" alt="" data-ww=""
+                    style="z-index: 6;"><img src="{{ asset('images/rev-slider/image_basement.png')}}" alt="" data-ww=""
                         data-hh="" data-no-retina> </div>
 
                 <!-- LAYER NR. 3 -->
@@ -62,7 +62,7 @@
                     data-frames='[{"delay":1100,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                     data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                     data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                    style="z-index: 7;"><img src="images/rev-slider/cloud_v1.png" alt="" data-ww=""
+                    style="z-index: 7;"><img src="{{ asset('images/rev-slider/cloud_v1.png')}}" alt="" data-ww=""
                         data-hh="" data-no-retina> </div>
 
                 <!-- LAYER NR. 4 -->
@@ -74,7 +74,7 @@
                     data-frames='[{"delay":1400,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                     data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                     data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                    style="z-index: 8;"><img src="images/rev-slider/cloud_v2.png" alt="" data-ww=""
+                    style="z-index: 8;"><img src="{{ asset('images/rev-slider/cloud_v2.png') }}" alt="" data-ww=""
                         data-hh="" data-no-retina> </div>
 
                 <!-- LAYER NR. 5 -->
@@ -88,7 +88,7 @@
                     data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                     style="z-index: 9;">
                     <div class="rs-looped rs-wave" data-speed="2" data-angle="0" data-radius="5px"
-                        data-origin="50% 50%"><img src="images/rev-slider/girl_v2.png" alt="" data-ww=""
+                        data-origin="50% 50%"><img src="{{ asset('images/rev-slider/girl_v2.png')}}" alt="" data-ww=""
                             data-hh="" data-no-retina> </div>
                 </div>
 
@@ -101,7 +101,7 @@
                     data-frames='[{"delay":2000,"speed":1000,"frame":"0","from":"y:top;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                     data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                     data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                    style="z-index: 10;"><img src="images/rev-slider/girl_v3.png" alt="" data-ww=""
+                    style="z-index: 10;"><img src="{{ asset('images/rev-slider/girl_v3.png')}}" alt="" data-ww=""
                         data-hh="" data-no-retina> </div>
 
                 <!-- LAYER NR. 7 -->
@@ -113,7 +113,7 @@
                     data-frames='[{"delay":2300,"speed":1000,"frame":"0","from":"y:top;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                     data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                     data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                    style="z-index: 11;"><img src="images/rev-slider/man_v1.png" alt="" data-ww=""
+                    style="z-index: 11;"><img src="{{ asset('images/rev-slider/man_v1.png')}}" alt="" data-ww=""
                         data-hh="" data-no-retina> </div>
 
                 <!-- LAYER NR. 8 -->
@@ -125,7 +125,7 @@
                     data-frames='[{"delay":2600,"speed":1000,"frame":"0","from":"y:top;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                     data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                     data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                    style="z-index: 12;"><img src="images/rev-slider/girl_v1.png" alt="" data-ww=""
+                    style="z-index: 12;"><img src="{{ asset('images/rev-slider/girl_v1.png')}}" alt="" data-ww=""
                         data-hh="" data-no-retina> </div>
 
                 <!-- LAYER NR. 9 -->
@@ -225,7 +225,7 @@
          
          
       </div>
-      <div id="paging">
+     <!--  <div id="paging">
          <ul class="pagination bootpag">
             <li data-lp="1" class="first disabled page-item"><a href="#see" class="page-link">←</a></li>
             <li data-lp="1" class="prev disabled page-item"><a href="#see" class="page-link">«</a></li>
@@ -234,7 +234,7 @@
             <li data-lp="2" class="next page-item"><a href="#see" class="page-link">»</a></li>
             <li data-lp="2" class="last page-item"><a href="#see" class="page-link">→</a></li>
          </ul>
-      </div>
+      </div> -->
    </div>
 </div>
 
@@ -244,7 +244,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="creative-comunication-image">
-                    <img src="images/creative-comunications.png" alt="">
+                    <img src="{{ asset('images/creative-comunications.png') }}" alt="">
                 </div><!-- .creative-comunication-image END -->
             </div>
             <div class="col-md-6">
@@ -329,8 +329,7 @@
     <div class="container">
         <div class="row no-gutters">
             <div class="col-lg-6">
-                <div class="parallax-slide" style="background-image: url(
-                    storage/service-categories/July2019/z3KRN45PdJAi1UYrmI2y.png)">
+                <div class="parallax-slide" style="background-image: url({{asset('storage/service-categories/July2019/z3KRN45PdJAi1UYrmI2y.png')}}">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -474,12 +473,12 @@
         <div class="row">
             <div class="col-md-5">
                 <div class="creative-comunication-image">
-                    <a href="careers.html"><img src="images/bg/team1.png" alt="Team Image"></a>
+                    <a href="careers.html"><img src="{{ asset('images/bg/team1.png') }}" alt="Team Image"></a>
                 </div> 
             </div>
             <div class="col-md-7">
                 <div class="creative-comunication-image">
-                    <a href="careers.html"><img src="images/bg/team2.jpg" alt="Team Image"></a>
+                    <a href="careers.html"><img src="{{ asset('images/bg/team2.jpg') }}" alt="Team Image"></a>
                 </div> 
             </div>
         </div> 
@@ -501,44 +500,44 @@
        <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:100px;overflow:hidden;visibility:hidden;">
         <!-- Loading Screen -->
         <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
-            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="{{ asset('img/spin.svg')}}" />
         </div>
         <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:100px;overflow:hidden;">
             <div>
-                <img data-u="image" src="storage/companies/June2019/7K4ujnmFal1CteEtsdBl.png" style="height: 150px !important; width: auto !important; " />
+                <img data-u="image" src="{{ asset('storage/companies/June2019/7K4ujnmFal1CteEtsdBl.png')}}" style="height: 150px !important; width: auto !important; " />
             </div>
             <div>
-                <img data-u="image" src="images/001.jpg" style="height: 150px !important; width: auto !important; " />
+                <img data-u="image" src="{{ asset('images/001.jpg')}}" style="height: 150px !important; width: auto !important; " />
             </div>
             <div>
-                <img data-u="image" src="images/002.jpg" style="height: 150px !important; width: auto !important; " />
+                <img data-u="image" src="{{ asset('images/002.jpg')}}" style="height: 150px !important; width: auto !important; " />
             </div>
             <div>
-                <img data-u="image" src="images/003.jpg" style="height: 150px !important; width: auto !important; " />
+                <img data-u="image" src="{{ asset('images/003.jpg')}}" style="height: 150px !important; width: auto !important; " />
             </div>
             <div>
-                <img data-u="image" src="images/004.jpg" style="height: 150px !important; width: auto !important; " />
+                <img data-u="image" src="{{ asset('images/004.jpg')}}" style="height: 150px !important; width: auto !important; " />
             </div>
             <div>
-                <img data-u="image" src="images/005.jpg" style="height: 150px !important; width: auto !important; " />
+                <img data-u="image" src="{{ asset('images/005.jpg')}}" style="height: 150px !important; width: auto !important; " />
             </div>
             <div>
-                <img data-u="image" src="images/006.jpg" style="height: 150px !important; width: auto !important; " />
+                <img data-u="image" src="{{ asset('images/006.jpg')}}" style="height: 150px !important; width: auto !important; " />
             </div>
             <div>
-                <img data-u="image" src="images/007.jpg" style="height: 150px !important; width: auto !important; " />
+                <img data-u="image" src="{{ asset('images/007.jpg')}}" style="height: 150px !important; width: auto !important; " />
             </div>
             <div>
-                <img data-u="image" src="images/008.jpg" style="height: 150px !important; width: auto !important; " />
+                <img data-u="image" src="{{ asset('images/008.jpg')}}" style="height: 150px !important; width: auto !important; " />
             </div>
             <div>
-                <img data-u="image" src="images/009.jpg" style="height: 150px !important; width: auto !important; " />
+                <img data-u="image" src="{{ asset('images/009.jpg')}}" style="height: 150px !important; width: auto !important; " />
             </div>
             <div>
-                <img data-u="image" src="images/010.jpg" style="height: 150px !important; width: auto !important; " />
+                <img data-u="image" src="{{ asset('images/010.jpg')}}" style="height: 150px !important; width: auto !important; " />
             </div>
             <div>
-                <img data-u="image" src="images/011.jpg" style="height: 150px !important; width: auto !important; " />
+                <img data-u="image" src="{{ asset('images/011.jpg')}}" style="height: 150px !important; width: auto !important; " />
             </div>
             
         </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">web design</a>
@@ -591,7 +590,7 @@
             <div class="sidebar-textwidget">
                 <div class="sidebar-logo-wraper">
                     <a href="index-2.html">
-                        <img src="storage/settings/June2019/NkqJmjVfVYE9cegFgw0V.png" alt="sidebar logo">
+                        <img src="{{ asset('storage/settings/June2019/NkqJmjVfVYE9cegFgw0V.png') }}" alt="sidebar logo">
                     </a>
                 </div>
               
@@ -599,7 +598,7 @@
                     <li>
                         <div class="media">
                             <div class="d-flex">
-                                <img src="images/location.png" alt="">
+                                <img src="{{ asset('images/location.png')}}" alt="">
                             </div>
                             <div class="media-body">
                                 <p>18, Hartron Complex, Electronic city, Udyog Vihar, Gurgaon ( HR ) India</p>
@@ -610,7 +609,7 @@
                     <li>
                         <div class="media">
                             <div class="d-flex">
-                                <img src="images/mail.png" alt="">
+                                <img src="{{ asset('images/mail.png')}}" alt="">
                             </div>
                             <div class="media-body">
                                 <a href="mailto:support@vipmanagement.in">support@vipmanagement.in</a>
@@ -621,7 +620,7 @@
                     <li>
                         <div class="media">
                             <div class="d-flex">
-                                <img src="images/phone.png" alt="">
+                                <img src="{{ asset('images/phone.png')}}" alt="">
                             </div>
                             <div class="media-body">
                                 <a href="tel:(+91) 08383000439">(+91) 8383000439</a>

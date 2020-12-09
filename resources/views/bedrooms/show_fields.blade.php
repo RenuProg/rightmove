@@ -1,6 +1,6 @@
 <!-- Bathroom Field -->
 <div class="form-group">
-    {!! Form::label('bathroom', 'Bathroom:') !!}
-    <p>{{ $bedroom->bathroom }}</p>
+    {!! Form::label('bedroom', 'Bedroom:') !!}
+    <p>{{ $bedroom->bedroom }}</p>
 </div>
 
