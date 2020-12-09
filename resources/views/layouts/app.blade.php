@@ -35,7 +35,7 @@
 
             <!-- Logo -->
             <a href="#" class="logo">
-                <img src="{{asset('storage/settings/June2019/NkqJmjVfVYE9cegFgw0V.png')}}" height="50" width="200">
+                <img src="{{ URL::asset('storage/settings/June2019/NkqJmjVfVYE9cegFgw0V.png') }}" height="50" width="200">
             </a>
 
             <!-- Header Navbar -->

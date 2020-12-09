@@ -1,6 +1,6 @@
 <!-- Balcony Field -->
 <div class="form-group">
-    {!! Form::label('balcony', 'Balcony:') !!}
-    <p>{{ $floor->balcony }}</p>
+    {!! Form::label('balcony', 'Floor:') !!}
+    <p>{{ $floor->floor }}</p>
 </div>
 

@@ -33,9 +33,9 @@
 </head>
 <body class="hold-transition register-page">
 <div class="register-box">
-    <div class="register-logo">
+    <!-- <div class="register-logo">
         <a href="{{ url('/home') }}"><b>InfyOm </b>Generator</a>
-    </div>
+    </div> -->
 
     <div class="register-box-body">
         <p class="login-box-msg">Register a new membership</p>

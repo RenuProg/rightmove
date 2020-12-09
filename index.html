@@ -1,0 +1,19 @@
+ $recipent=array();
+               $recipent['email']= $q_data['User_data']['email'];
+                $mail_data['code']=public_path($visits->qr_code);
+               Mail::send('admin.visit_management.qr_code_mail',$mail_data, function ($message) use ($recipient) {
+            $message->to($recipient['email'])->subject('QRCode code [Visit]');
+             $message->from(env("MAIL_FROM_ADDRESS"));
+         });
+ Mail::send('templates.default.send_link', ['data' => $data], function ($message) use ($data) {
+                $message->to($data[ 'email' ])->subject('Subscription Link [Makhazan]');
+                $message->from(env("MAIL_FROM_ADDRESS"));
+            });
+visiting_area1
+v_area_error1
+
+check_in_time1
+c_in_error1
+
+visit_purpose_id
+P_v_error1
