@@ -163,9 +163,9 @@
                 <!-- menu list -->
                 <ul class="nav-menu">
                     <li><a href="{{url('/')}}">HOME</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#">CAREER</a></li>
-                    <li><a href="#">GET IN TOUCH</a></li>
+                    <li><a href="#property_listing">ALL PROPERTY</a></li>
+                    
+                    <li><a href="#" class="navSidebar-button navSidebar-button" >GET IN TOUCH</a></li>
                      <li><a style="margin: 8px; padding: 0px 20px;color:#000" href="{{route('post.create')}}" class="btn btn-primary ">Post Advertisement Here</a></li>
                 </ul> <!-- End menu list -->
                 <ul class="xs-menu-tools">
@@ -210,7 +210,7 @@
                     </div> 
                 </div>
 
-                <div class="col-md-6 col-lg-3">
+                <!-- <div class="col-md-6 col-lg-3">
                     <div class="footer-widget">
                         <h4 class="widget-title">Company</h4>
                         <ul class="xs-list">
@@ -220,7 +220,7 @@
                             
                         </ul> 
                     </div> 
-                </div>
+                </div> -->
                 <div class="col-md-6 col-lg-3">
                     <div class="footer-widget">
                         <h4 class="widget-title">Social Media</h4>

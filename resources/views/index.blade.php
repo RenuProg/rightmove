@@ -4,7 +4,7 @@
     <img src="images/rev-slider/mobile_bg.jpg" alt="">
     <h1 class="banner-title slider-mobile-title" id="type-effect"></h1>
     <div class="btn-wraper dwnld-mobile-btn">
-        <a href="#" class="btn btn-primary contact-side-bar">Short on time? Buy Sell Rent
+        <a href="#" class="btn btn-primary contact-side-bar ">Short on time? Buy Sell Rent
             Click to Get In touch</a>
               <a style="margin: 8px;" href="#" class="btn btn-primary download download-side-bar">Post Advertisement
               <br> Here</a>
@@ -138,7 +138,7 @@
                     data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                     style="z-index: 13; min-width: 579px; max-width: 579px; max-height:300px; white-space: normal; font-size: 20px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Open Sans;">
                     <div class="agency-banner-content">
-                        <h1 class="banner-title" id="type-effect"></h1>
+                        <h1 class="banner-title" id="type-effect">Get best deals on property</h1>
                         <!--span class="watermark-title"></span-->
                     </div>
                     
@@ -160,7 +160,7 @@
 <div class="AListing_all">
    <div class="Main">
       <!-- <h1 class="listing-page-title">These <span id="count">29&nbsp; RESULTS</span> listings have not yet been added to the RightMove!</h1> -->
-      <h2 class="listing-page-sub-head">Access all <a href="#" style="color:#1288CA
+      <h2 class="listing-page-sub-head" id="property_listing">Access all <a href="#" style="color:#1288CA
          ;font-weight:700" data-et-has-event-already="true">Just Listed</a> properties in the RightMove!</h2>
       <div class="full-row" id="listings">
          @foreach($properties as $property)
@@ -171,10 +171,10 @@
                <div class="post-front_Listing">
                   <a href="{{ route('post.show', [$property->id]) }}">
                                  <?php          
-  $arrayOfFiles = explode('|',$property->image);
+               $arrayOfFiles = explode('|',$property->image);
 
   //foreach ($arrayOfFiles as $singleFile) {
-    ?>
+               ?>
                      <div class="listing-post-img">
 
      
@@ -197,23 +197,36 @@
                   </div>
                   <div class="card-stats">
                      <div class="stat">
-                        <div class="value"><sup>{{$property->bedroom}}</sup></div>
-                        <div class="type">BEDS</div>
+                        <!-- <div class="value"><sup>{{$property->bedroom}}</sup></div> -->
+                        <div class="type">{{$property->bedroom}}</div>
                      </div>
                      <div class="stat border bor1">
-                        <div class="value">{{$property->bathroom}}</div>
-                        <div class="type">BATHS</div>
+                        <!-- <div class="value">{{$property->bathroom}}</div> -->
+                        <div class="type">{{$property->bathroom}}</div>
                      </div>
                      <div class="stat">
-                        <div class="value">{{$property->total_area}}</div>
-                        <div class="type">SQFT</div>
+                       <!--  <div class="value">{{$property->total_area}}</div> -->
+                        <div class="type">{{$property->total_area}}</div>
                      </div>
+                      
+
                   </div>
+                                          
+                         
+                     
                </div>
               
             </div>
+            <div >
+           <!-- <a href="{{ route('post.show', [$property->id]) }}"  
+                        class="btn btn-primary ">Detail</a> -->
+
+                         <a href="https://wa.me/send?phone=919910580000&text=I have seen your property <?php echo $property->property_title; ?> on http://www.rightmoveofficial.com,  i want to connect with you for further details"  target="_blank"
+                        class="btn btn-primary ">Whatsapp to enquire</a>
+                      </div>
 
          </div>
+
         @endforeach
          
          
@@ -227,12 +240,12 @@
       </div>
      <!--  <div id="paging">
          <ul class="pagination bootpag">
-            <li data-lp="1" class="first disabled page-item"><a href="#see" class="page-link">←</a></li>
-            <li data-lp="1" class="prev disabled page-item"><a href="#see" class="page-link">«</a></li>
-            <li data-lp="1" class="active page-item"><a href="#see" class="page-link">1</a></li>
-            <li data-lp="2" class="page-item"><a href="#see" class="page-link">2</a></li>
-            <li data-lp="2" class="next page-item"><a href="#see" class="page-link">»</a></li>
-            <li data-lp="2" class="last page-item"><a href="#see" class="page-link">→</a></li>
+            <li data-lp="1" class="first disabled page-item"><a href="#seen" class="page-link">←</a></li>
+            <li data-lp="1" class="prev disabled page-item"><a href="#seen" class="page-link">«</a></li>
+            <li data-lp="1" class="active page-item"><a href="#seen" class="page-link">1</a></li>
+            <li data-lp="2" class="page-item"><a href="#seen" class="page-link">2</a></li>
+            <li data-lp="2" class="next page-item"><a href="#seen" class="page-link">»</a></li>
+            <li data-lp="2" class="last page-item"><a href="#seen" class="page-link">→</a></li>
          </ul>
       </div> -->
    </div>
@@ -310,11 +323,9 @@
                                         </a>
                                     </div>
                                 </div>
-                            </div>
-                                        
+                            </div>                        
                                                             
-                                                            
-                                                    </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -392,9 +403,9 @@
                 </div> 
                 <div class="parallax-btn text-center wow fadeInUp" data-wow-duration="3s">
                     <a href="{{ route('postquery.create') }}"
-                        class="btn btn-primary ser-parallax-btn contact-side-bar">Send Query</a>
-                        <a href="https://wa.me/+918383000439"
-                        class="btn btn-primary ser-parallax-btn">Whatsapp</a>
+                        class="btn btn-primary ser-parallax-btn ">Send Query</a>
+                        <a href="https://wa.me/send?phone=919910580000&text=I have seen your property on http://www.rightmoveofficial.com,  i want to connect with you for further details"  target="_blank"
+                        class="btn btn-primary ser-parallax-btn">Whatsapp to enquire</a>
                 </div>
             </div>
         </div> 
@@ -559,16 +570,17 @@
             <div class="row">
                 
                 <div class="col-md-3 contact-topic">
-                    <a href="{{ route('postquery.create') }}" class="contact-side-bar">Send Enquiry</a>
+                    <a href="{{ route('postquery.create') }}" >Send Enquiry</a>
                 </div>
                 <div class="col-md-3 contact-topic">
-                    <a href="https://wa.me/+918383000439">Whatsapp Us</a>
+                    <a href="https://wa.me/send?phone=919910580000&text=I have seen your property on http://www.rightmoveofficial.com,  i want to connect with you for further details"  target="_blank">Whatsapp Us</a>
                 </div>
                 <div class="col-md-3 contact-topic">
                     <a href="mailto:support@vipmanagement.in">Email</a>
+                    <p><small><a href="mailto:support@vipmanagement.in">support@vipmanagement.in</a></small></p>
                 </div>
                 <div class="col-md-3 contact-topic">
-                    <a href="tel:8383000439" >8383000439</a>
+                    <a href="tel:8383000439" >9910580000</a>
                 </div>
             </div>
         </div>
