@@ -5,8 +5,13 @@
                               
         <option value="">Select Property Type</option>
          @foreach($property_type as $propertys)
-         
-        <option value="{{$propertys->id}}" >{{  $propertys->property_type}}</option>
+<?php  if($propertys->id == $property['property_type_id']){  
+            $selected = "selected = 'selected'"; 
+        }else{
+           $selected="";
+         } ?>
+                    
+        <option value="{{$propertys->id}}" {{$selected}}>{{  $propertys->property_type}}</option>
         @endforeach
     
                             </select>
@@ -16,7 +21,7 @@
 <div class="form-group col-sm-6">
     {!! Form::label('property_sub_type_id', 'Property Sub Type Id:') !!}
       <select class="form-control" name="property_sub_type_id" id="PropertyType" >
-                                    <!-- <option value="">Property Sub Type</option> -->
+        <option value="{{$property_sub_type->id}}">{{$property_sub_type->type}}</option>
                                     
                                 </select>
 </div>
@@ -78,16 +83,16 @@
 <div class="form-group col-sm-6">
     {!! Form::label('bedroom_id', 'Bathroom :') !!}
     <select name="bedroom_id" class="form-control">
-                                        <option value="">Bathroom</option>
-                                         @foreach($bathroom as $bathrooms)
-                                         <?php  if($bathrooms->id == $property['bathroom_id']){  
+                <option value="">Bathroom</option>
+                    @foreach($bathroom as $bathrooms)
+                <?php  if($bathrooms->id == $property['bathroom_id']){  
             $selected = "selected = 'selected'"; 
         }else{
            $selected="";
          } ?>
         <option value="{{$bathrooms->id}}" {{$selected}}>{{  $bathrooms->bathroom}}</option>
         @endforeach
-                                    </select>
+    </select>
 </div>
 
 <!-- Balcony Id Field -->

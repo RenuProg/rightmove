@@ -11,7 +11,7 @@
        <div class="box box-primary">
            <div class="box-body">
                <div class="row">
-                   {!! Form::model($property, ['route' => ['properties.update', $property->id], 'method' => 'patch']) !!}
+                   {!! Form::model($property, ['route' => ['properties.update', $property->id], 'method' => 'patch','enctype' => 'multipart/form-data']) !!}
 
                         @include('properties.edit_fields')
 

@@ -115,9 +115,9 @@ class PropertyController extends AppBaseController
     public function edit($id)
     {
         $property = $this->propertyRepository->find($id);
-        // dd($property);
+         //dd($property->property_sub_type_id);
           $property_type=PropertyType::all();
-        //$property_sub_type=PropertySubType::all();
+        $property_sub_type=PropertySubType::find($property->property_sub_type_id);
         $balcony=Balcony::all();
         $floor=Floor::all();
         $bathroom=Bathroom::all();
@@ -132,7 +132,9 @@ class PropertyController extends AppBaseController
             'balcony'=>$balcony,
             'floor'=>$floor,
             'bedroom'=>$bedroom,
-            'bathroom'=>$bathroom]);
+            'bathroom'=>$bathroom,
+            'property_sub_type'=>$property_sub_type
+        ]);
     }
 
     /**
@@ -145,24 +147,50 @@ class PropertyController extends AppBaseController
      */
     public function update($id, UpdatePropertyRequest $request)
     {
-        $property = $this->propertyRepository->find($id);
+        //dd($request['property_type_id']);
+        $property = Property::find($id);
 
         if (empty($property)) {
             Flash::error('Property not found');
 
             return redirect(route('properties.index'));
         }
-        $input=$request->all();
+        $property['property_type_id']=$request['property_type_id'];
+         $property['property_sub_type_id']=$request['property_sub_type_id'];
+          $property['property_title']=$request['property_title'];
+           $property['total_area']=$request['total_area'];
+            $property['builtup_area']=$request['builtup_area'];
+             $property['carpet_area']=$request['carpet_area'];
+              $property['location']=$request['location'];
+               $property['price']=$request['price'];
+
+                $property['bathroom_id']=$request['bathroom_id'];
+                 $property['bedroom_id']=$request['bedroom_id'];
+                  $property['balcony_id']=$request['balcony_id'];
+                   $property['floor_id']=$request['floor_id'];
+                   $property['about_property']=$request['about_property'];
+
          $images=array();
+
       if ($files=$request->file('image')) {
+        //dd('hi');
         foreach($files as $file){
             $filename=time()."_".$file->getClientOriginalName();
+
              $destinationPath = 'uploads';
       $file->move($destinationPath, $filename);
             $images[]=$filename;
-            $input['image']=implode("|",$images);
-        }}
-        $property = $this->propertyRepository->update($input, $id);
+            
+        }
+        $property['image']=implode("|",$images);
+        //dd($property['image']=implode("|",$images));
+       }
+       //dd($property);
+       $property->save();
+        
+        
+
+        //$property = $this->propertyRepository->update($input, $id);
 
         Flash::success('Property updated successfully.');
 

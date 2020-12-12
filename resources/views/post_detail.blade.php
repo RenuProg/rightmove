@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col-md-7 mx-auto">
                 <div class="inner-banner">
-                    <h2 class="inner-banner-title"></h2>
+                    <h2 class="inner-banner-title" ></h2>
                     
                 </div>
             </div>
@@ -101,18 +101,18 @@
         </div>
         <div class="col-md-6">
             <p class="deta"><i class="fa fa-area-chart" aria-hidden="true" id="detail-icon" style="padding-left: 10px"></i>
-  Total Area - {{$property_detail[0]->total_area}} Sq.Ft.</p>
+  Total Area - {{$property_detail[0]->total_area}}</p>
         </div>
     </div>
 
     <div class="row pb" >
         <div class="col-md-6">
             <p class="deta"><i class="fa fa-area-chart" aria-hidden="true" id="detail-icon" style="padding-left: 10px"></i>
-  BuiltUp Area - {{$property_detail[0]->builtup_area}} Sq.Ft.</p>
+  BuiltUp Area - {{$property_detail[0]->builtup_area}} </p>
         </div>
         <div class="col-md-6">
             <p class="deta"><i class="fa fa-area-chart" aria-hidden="true" id="detail-icon" style="padding-left: 10px"></i>
-  Carpet Area - {{$property_detail[0]->carpet_area}}.Ft.</p>
+  Carpet Area - {{$property_detail[0]->carpet_area}}</p>
         </div>
     </div>
 
@@ -130,22 +130,22 @@
     <div class="row pb">
         <div class="col-md-6">
             <p class="deta"><i class="fa fa-bath" aria-hidden="true" id="detail-icon" style="padding-left: 10px"></i>
-  Bathroom - {{$property_detail[0]->bathroom}} Bthroom</p>
+  Bathroom - {{$property_detail[0]->bathroom}} </p>
         </div>
         <div class="col-md-6">
             <p class="deta"><i class="fa fa-bed" aria-hidden="true" id="detail-icon" style="padding-left: 10px"></i>
-  BedRoom - {{$property_detail[0]->bedroom}} BedRoom</p>
+  BedRoom - {{$property_detail[0]->bedroom}} </p>
         </div>
     </div>
 
     <div class="row pb">
         <div class="col-md-6">
             <p class="deta"><i class="fa fa-building" aria-hidden="true" id="detail-icon" style="padding-left: 10px"></i>
-  Balcony - {{$property_detail[0]->balcony}} Balcony</p>
+  Balcony - {{$property_detail[0]->balcony}} </p>
         </div>
         <div class="col-md-6">
             <p class="deta"><i class="fa fa-building" aria-hidden="true" id="detail-icon" style="padding-left: 10px"></i>
-  Floor - {{$property_detail[0]->balcony}} Floors</p>
+  Floor - {{$property_detail[0]->floor}} </p>
         </div>
     </div>
 

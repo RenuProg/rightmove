@@ -37,7 +37,8 @@ class PostAdvertisementController extends Controller
              ->join('floor', 'floor.id', '=', 'properties.floor_id')
             
             ->select('properties.*','property_type.property_type','property_sub_type.type','bathroom.bathroom','balcony.balcony','floor.floor','bedroom.bedroom')
-            ->where('properties.deleted_at', '=', null)
+            ->where(['properties.deleted_at'=> null,'is_active'=>1])
+
             ->get();
         //dd($properties);
         return view('index')->with('properties',$properties);
