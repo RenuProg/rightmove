@@ -1,14 +1,11 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
-
-
-
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   
     <title>Right Move</title>
-    <meta name="title" content="Laudco Media">
-    <meta name="description" content="At Laudco, we drive ROI and build brands online for our clients – some of world&#039;s biggest and best known brands and personalities">
+    <meta name="title" content="Right Move">
+    <meta name="description" content="Property Dealer in Gurugram - Right Move Official">
     <meta name="keywords" content="laudco, media">
     <meta name="author" content="laudco Media">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
