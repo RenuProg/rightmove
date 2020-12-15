@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ config('app.name') }}</title>
+    <title>{{ config('app.name') }} | Login Page</title>
 
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -34,13 +34,13 @@
 </head>
 <body class="hold-transition login-page">
 <div class="login-box">
-   <!--  <div class="login-logo">
-        <a href="{{ url('/home') }}"><img src="{{ asset('storage/settings/June2019/NkqJmjVfVYE9cegFgw0V.png') }} " height="100" width="200"></a>
-    </div> -->
+    <div class="login-logo">
+        <a href="{{ url('/home') }}"><img src="{{ URL::asset('storage/settings/June2019/NkqJmjVfVYE9cegFgw0V.png') }} " height="100" width="200"></a>
+    </div>
 
     <!-- /.login-logo -->
     <div class="login-box-body">
-        <p class="login-box-msg">Sign in to start your session</p>
+        <h3 class="login-box-msg">Login to Back Office</h3>
 
         <form method="post" action="{{ url('/login') }}">
             @csrf

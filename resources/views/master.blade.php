@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   
-    <title>Right Move</title>
+    <title>{{ config('app.name') }}</title>
     <meta name="title" content="Right Move">
     <meta name="description" content="Property Dealer in Gurugram - Right Move Official">
     <meta name="keywords" content="laudco, media">

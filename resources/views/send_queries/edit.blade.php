@@ -1,9 +1,9 @@
 @extends('layouts.app')
-
+@section('title', 'Edit Query')
 @section('content')
     <section class="content-header">
         <h1>
-            Send Query
+           Edit Send Query
         </h1>
    </section>
    <div class="content">

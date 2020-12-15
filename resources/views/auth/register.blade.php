@@ -38,7 +38,7 @@
     </div> -->
 
     <div class="register-box-body">
-        <p class="login-box-msg">Register a new membership</p>
+        <h3 class="login-box-msg">Register to Back Office</h3>
 
         <form method="post" action="{{ url('/register') }}">
             @csrf

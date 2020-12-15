@@ -1,9 +1,9 @@
 @extends('layouts.app')
-
+@section('title', 'View User')
 @section('content')
     <section class="content-header">
         <h1>
-            Users
+           View User
         </h1>
     </section>
     <div class="content">
