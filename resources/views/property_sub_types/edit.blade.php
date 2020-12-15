@@ -1,9 +1,9 @@
 @extends('layouts.app')
-
+@section('title', 'Edit Property Sub Type')
 @section('content')
     <section class="content-header">
         <h1>
-            Property Sub Type
+           Edit Property Sub Type
         </h1>
    </section>
    <div class="content">

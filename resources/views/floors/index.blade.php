@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title', 'Floor List')
 @section('content')
     <section class="content-header">
         <h1 class="pull-left">Floors</h1>

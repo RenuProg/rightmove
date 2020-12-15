@@ -1,9 +1,9 @@
 @extends('layouts.app')
-
+@section('title', 'View Property Type')
 @section('content')
     <section class="content-header">
         <h1>
-            Property Type
+           View Property Type
         </h1>
     </section>
     <div class="content">

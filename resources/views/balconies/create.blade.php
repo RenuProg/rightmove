@@ -1,9 +1,9 @@
 @extends('layouts.app')
-
+@section('title', 'Add Balcony')
 @section('content')
     <section class="content-header">
         <h1>
-            Balcony
+            Add Balcony
         </h1>
     </section>
     <div class="content">

@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title', ' Property Types ')
 @section('content')
     <section class="content-header">
         <h1 class="pull-left">Property Types</h1>

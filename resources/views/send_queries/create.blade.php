@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title', 'Add Query')
 @section('content')
     <section class="content-header">
         <h1>
